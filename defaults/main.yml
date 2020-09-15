@@ -1,0 +1,8 @@
+---
+barman_packages:
+  - barman
+
+barman_package_state: present
+
+# barman_conf_template: barman.conf
+# barman_conf_path: /etc/barman/barman.conf

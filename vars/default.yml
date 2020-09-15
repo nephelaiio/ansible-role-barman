@@ -1,0 +1,5 @@
+# vim: sw=2 ts=2 et :
+---
+barman_package_names_default:
+  - barman
+  - barman-cli

@@ -1,0 +1,19 @@
+---
+dependency:
+  name: galaxy
+driver:
+  name: docker
+lint: |
+  yamllint .
+  ansible-lint .
+platforms:
+  - name: centos7
+    image: centos:7
+  - name: focal
+    image: ubuntu:focal
+  - name: bionic
+    image: ubuntu:bionic
+provisioner:
+  name: ansible
+verifier:
+  name: testinfra
