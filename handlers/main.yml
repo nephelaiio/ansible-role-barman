@@ -1,7 +1,0 @@
----
-# - name: restart barman
-#   become: yes
-#   service:
-#     name: "{{ item }}"
-#     state: restarted
-#   with_items: "{{ barman_service_names }}"
